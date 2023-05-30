@@ -5,3 +5,4 @@ window.onresize = function(){
     headingtag.innerHTML = `Width: ${innerWidth} and Height: ${innerHeight}`;
     div.appendChild(headingtag);
 }
+window.onresize();
