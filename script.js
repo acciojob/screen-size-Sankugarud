@@ -1,7 +1,7 @@
 //your JS code here. If required.
-
+let headingtag = document.createElement("h1");
 let div = document.getElementById("sizeInfo");
 window.onresize = function(){
-	div.innerHTML = `Width: ${innerWidth} and Height: ${innerHeight}`
+	headingtag.innerHTML = `Width: ${innerWidth} and Height: ${innerHeight}`
 }
-
+div.appendChild(headingtag)
